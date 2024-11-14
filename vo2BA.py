@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load data from Excel file
-file_path = 'cleaned_VO2_data.xlsx'  # Specify file path
-sheet_name = 'Sheet1'  # Specify sheet name
+file_path = 'cleaned_VO2_data.xlsx'  
+sheet_name = 'Sheet1'  
 df = pd.read_excel(file_path, sheet_name=sheet_name)
 
 # Drop rows with missing values in the measurements
